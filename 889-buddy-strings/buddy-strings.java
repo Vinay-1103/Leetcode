@@ -19,7 +19,7 @@ class Solution {
             if (s.charAt(i) != goal.charAt(i)) {
                 if (first == -1) first = i;
                 else if (second == -1) second = i;
-                else return false; // more than 2 differences
+                else return false; 
             }
         }
 
